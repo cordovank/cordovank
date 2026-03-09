@@ -1,6 +1,6 @@
 ## Hi, I'm Nellie 👋
 
-ML Engineer building RAG systems, agentic workflows, and end-to-end ML pipelines.  
+ML Engineer Practitioner building RAG systems, agentic workflows, and end-to-end ML pipelines.  
 Georgia Tech OMSCS (ML specialization) · 2 years production SWE at JPMorgan · Bilingual EN/ES
 
 ---
@@ -8,16 +8,15 @@ Georgia Tech OMSCS (ML specialization) · 2 years production SWE at JPMorgan · 
 ### Featured Work
 
 🔍 **[Modular RAG](https://github.com/cordovank/modular-rag)**  
-Production-oriented RAG framework. Hybrid retrieval (BM25 + FAISS + RRF + MMR),  
-explicit wiring, observability-first. Computation and control separated by design.
+Production-oriented RAG framework. Hybrid retrieval (BM25 + FAISS + RRF + MMR), explicit wiring, observability-first. Computation and control separated by design.
 
 🍽️ **[Plate2Recipe](https://github.com/cordovank/plate2recipe)**  
 Multimodal pipeline: ViT ingredient recognition → GPT-2/LSTM recipe generation.  
-Perplexity reduced 19.1 → 4.9. Evaluated with BLEU/ROUGE + precision/recall.
+Key finding: lower training loss (100k samples) produced worse outputs than a smaller, better-tuned run (10k samples) — quality ≠ loss.
 
 📋 **[JobPostProfiler](https://github.com/cordovank/jobpostprofiler)**  
 Schema-first CrewAI pipeline with a no-hallucination policy and QA audit gate.  
-Pydantic-enforced outputs. Reliability-first, not demo-first.
+Pydantic-enforced outputs. Reliability-first.
 
 ---
 
