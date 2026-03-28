@@ -3,6 +3,8 @@
 ML Engineer Practitioner building RAG systems, agentic workflows, and end-to-end ML pipelines.  
 Georgia Tech OMSCS (ML specialization) · 2 years production SWE at JPMorgan · Bilingual EN/ES
 
+[Ask my TwinBot](https://cordovank.github.io) about my projects, skills, or experience.
+
 ---
 
 ### Featured Work
