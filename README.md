@@ -16,7 +16,7 @@ Production-oriented RAG framework. Hybrid retrieval (BM25 + FAISS + RRF + MMR), 
 Multimodal pipeline: ViT ingredient recognition → GPT-2/LSTM recipe generation.  
 Key finding: lower training loss (100k samples) produced worse outputs than a smaller, better-tuned run (10k samples) — quality ≠ loss.
 
-📋 **[JobPostProfiler](https://github.com/cordovank/jobpostprofiler)**  
+📋 **[HireSignal](https://github.com/cordovank/HireSignal)**  
 Schema-first job posting extraction pipeline — two LLM calls, everything else deterministic Python. 
 Pydantic-enforced structured extraction, Jinja2 rendering, QA audit gate, alias-aware skill match scoring, and a SQLite job tracker. Handles employment, freelance, and internship postings. Streamlit UI + CLI.
 
