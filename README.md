@@ -17,8 +17,8 @@ Multimodal pipeline: ViT ingredient recognition → GPT-2/LSTM recipe generation
 Key finding: lower training loss (100k samples) produced worse outputs than a smaller, better-tuned run (10k samples) — quality ≠ loss.
 
 📋 **[JobPostProfiler](https://github.com/cordovank/jobpostprofiler)**  
-Schema-first CrewAI pipeline with a no-hallucination policy and QA audit gate.  
-Pydantic-enforced outputs. Reliability-first.
+Schema-first job posting extraction pipeline — two LLM calls, everything else deterministic Python. 
+Pydantic-enforced structured extraction, Jinja2 rendering, QA audit gate, alias-aware skill match scoring, and a SQLite job tracker. Handles employment, freelance, and internship postings. Streamlit UI + CLI.
 
 ---
 
